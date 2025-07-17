@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist",
+  "homepage": "https://jhonywalter.github.io/bfcompanycl/"
+
+},
   "dependencies": {
     "@supabase/supabase-js": "^2.51.0",
     "lucide-react": "^0.344.0",
@@ -31,6 +33,7 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
-    "vite": "^5.4.2"
+    "vite": "^5.4.2",
+    "vite-plugin-gh-pages": "^1.0.1"
   }
 }
